@@ -2,6 +2,8 @@ package com.controlefinanceiroaula
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioGroup
@@ -20,9 +22,18 @@ class MainActivity : AppCompatActivity() {
         var calculate_button: Button = findViewById(R.id.calculate_button)
         calculate_button.setOnClickListener {
 
-            var result = calculeValue( cost_of_service.text.toString().toDouble() )
-            value_result.text = result.toString()
+            if ( TextUtils.isEmpty(cost_of_service.text) ){
 
+                cost_of_service.setError("Informe o Valor")
+
+            }else {
+
+                var result = calculeValue(cost_of_service.text.toString().toDouble())
+                value_result.text = result.toString()
+
+                value_result.visibility = View.VISIBLE
+
+            }
         }
     }
 

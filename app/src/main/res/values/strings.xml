@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Controle Financeiro Aula</string>
+    <string name="app_name">Calcule de Serviço</string>
+    <string name="label_describle_service">Descrição do Serviço</string>
 </resources>
