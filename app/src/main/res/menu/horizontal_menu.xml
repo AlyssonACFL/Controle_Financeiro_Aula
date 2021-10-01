@@ -3,14 +3,17 @@
 
     <item
         android:id="@+id/item_menu_extract"
+        android:icon="@drawable/ic_baseline_assessment_24_red"
         android:title="@string/title_extract" />
 
     <item
         android:id="@+id/item_menu_revenue"
+        android:icon="@drawable/ic_baseline_attach_money_24"
         android:title="@string/title_revenue"/>
 
     <item
         android:id="@+id/item_menu_outgoing"
+        android:icon="@drawable/ic_baseline_money_off_24"
         android:title="@string/title_outgoing"/>
 
 </menu>
