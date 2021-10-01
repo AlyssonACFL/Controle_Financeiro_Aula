@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Controle Financeiro Aula</string>
+    <string name="name_of_service">Descrição do Serviço</string>
+    <string name="title_extract">Extrato</string>
+    <string name="title_revenue">Receita</string>
+    <string name="title_outgoing">Despesas</string>
 </resources>
