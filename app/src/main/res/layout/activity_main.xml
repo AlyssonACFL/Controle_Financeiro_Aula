@@ -2,90 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:id="@+id/container"
+    >
 
-    <!-- Comment -->
-    <EditText
-        android:id="@+id/describle_of_service"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/label_describle_service"
-        android:inputType="textMultiLine"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
-
-
-    <EditText
-        android:id="@+id/cost_of_service"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:hint="Valor do Serviço"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/describle_of_service" />
-
-    <TextView
-        android:id="@+id/service_question"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Avalie o Serviço:"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cost_of_service"/>
-
-    <!-- app:layout_constraintStart_toStartOf = inicio na vertical -->
-    <RadioGroup
-        android:id="@+id/tip_options"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/service_question">
-
-        <RadioButton
-            android:id="@+id/option_twenty_percent"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Complexo"/>
-
-        <RadioButton
-            android:id="@+id/option_ten_percent"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Normal"
-            android:checked="true"/>
-
-        <RadioButton
-            android:id="@+id/option_five_percent"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Simples"/>
-
-    </RadioGroup>
-
-    <Button
-        android:id="@+id/calculate_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cacular"
-        app:layout_constraintTop_toBottomOf="@id/tip_options"
-        app:layout_constraintStart_toStartOf="parent"
-        />
-
-    <TextView
-        android:id="@+id/result_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Resultado"
-        android:gravity="center"
-        android:textSize="15pt"
-        app:layout_constraintTop_toBottomOf="@id/calculate_button"
-        app:layout_constraintStart_toStartOf="parent"
-        android:visibility="gone"
-        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
