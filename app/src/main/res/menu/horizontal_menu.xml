@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/item_menu_extract"
-        android:icon="@drawable/ic_baseline_assessment_24_red"
+        android:icon="@drawable/ic_baseline_assessment_24"
         android:title="@string/title_extract" />
 
     <item
