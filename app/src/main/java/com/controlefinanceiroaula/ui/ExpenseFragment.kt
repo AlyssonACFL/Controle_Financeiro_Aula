@@ -5,11 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.controlefinanceiroaula.databinding.FragmentRevenueBinding
 
-class RevenueFragment : Fragment() {
 
-    private var _binding: FragmentRevenueBinding? = null
+class ExpenseFragment : Fragment() {
+
+    private var _binding: FragmentExpenseBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
