@@ -12,8 +12,8 @@
         android:title="@string/title_revenue"/>
 
     <item
-        android:id="@+id/item_menu_outgoing"
+        android:id="@+id/item_menu_outgo"
         android:icon="@drawable/ic_baseline_money_off_24"
-        android:title="@string/title_outgoing"/>
+        android:title="@string/title_expense"/>
 
 </menu>

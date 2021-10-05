@@ -19,4 +19,11 @@
         tools:layout="@layout/fragment_revenue"
         />
 
+    <fragment
+        android:id="@+id/navigation_expense"
+        android:name="com.controlefinanceiroaula.ui.RevenueFragment"
+        android:label="@string/title_revenue"
+        tools:layout="@layout/fragment_extract"
+        />
+
 </navigation>

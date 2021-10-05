@@ -3,5 +3,5 @@
     <string name="label_describle_service">Descrição do Serviço</string>
     <string name="title_extract">Extrato</string>
     <string name="title_revenue">Receita</string>
-    <string name="title_outgoing">Despesas</string>
+    <string name="title_expense">Despesas</string>
 </resources>
